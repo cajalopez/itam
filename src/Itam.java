@@ -12,11 +12,11 @@ public class Itam {
 
         // Variable de entrada
         String mainPath = "/Users/cajalopez/Desktop/Itam/Entrada";
-        String mainExtension = ".xlsx";
+        String mainExtension = ".log";
 
         /*
         RAFAEL
-        Construir una version que lea linea por linea un archivo de excel
+        Construir una version que lea linea por linea un archivo de excel xlsx
         */
 
         // Entrada de ruta de directorio a evaluar
