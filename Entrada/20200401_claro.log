@@ -1,0 +1,18 @@
+Inicia conciliacion 2020-04-01 16:55:45
+Finaliza tarea 2020-04-01 16:55:45
+Inicia conciliacion 2020-04-02 14:51:22
+Fecha a conciliar: 2020-04-01
+Archivo Operador: /opt/snapshot/conciliacion/operadores/claro/in/CLARO_20200401_RC.csv
+Eliminando archivos de procesos anteriores
+Totales de Claro generados 2020-04-02 14:51:22
+Totales de ventas CXR generado 2020-04-02 14:51:22
+Totales de TRX CXR generado 2020-04-02 14:51:22
+Ventas Claro: 339507000
+Ventas CXR: 339507000
+Diferencia $: 0
+-------------------------
+TRX Claro: 77960
+TRX CXR: 77960
+Diferencia TX: 0
+No se presentaron diferencias, no se genera detalle
+Finaliza tarea 2020-04-02 14:51:22

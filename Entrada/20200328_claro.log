@@ -1,0 +1,25 @@
+Inicia conciliacion 2020-03-28 09:16:10
+Finaliza tarea 2020-03-28 09:16:11
+Inicia conciliacion 2020-03-30 09:06:03
+Fecha a conciliar: 2020-03-28
+Archivo Operador: /opt/snapshot/conciliacion/operadores/claro/in/CLARO_20200328_RC.csv
+Eliminando archivos de procesos anteriores
+Totales de Claro generados 2020-03-30 09:06:03
+Totales de ventas CXR generado 2020-03-30 09:06:04
+Totales de TRX CXR generado 2020-03-30 09:06:04
+Ventas Claro: 291959000
+Ventas CXR: 291949000
+Diferencia $: -10000
+-------------------------
+TRX Claro: 71294
+TRX CXR: 71293
+Diferencia TX: -1
+-------------------------
+Se procede a generar detalle de CXR para realizar JOIN
+Detalle de CXR generado
+Generando detalle de diferencias: /opt/snapshot/conciliacion/operadores/claro/20200328_detalle_diferencias_claro.csv
+join -o 1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10,1.11,1.12,1.13,1.14,1.15,1.16,1.17 -t '|' -1 14 -2 1 -v 1 <(sort -t '|' -k 14 /opt/snapshot/conciliacion/operadores/claro/in/CLARO_20200328_RC.csv) <(sort /opt/snapshot/conciliacion/operadores/claro/detalle_cxr.csv) | grep -v 'Reference ID'
+archivo de variables copiado al CORE
+Logs generados
+Logs copiados al directorio del proceso
+Finaliza tarea 2020-03-30 09:06:07
