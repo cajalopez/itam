@@ -14,12 +14,7 @@ public class Itam {
         String mainPath = "/Users/cajalopez/Desktop/Itam/Entrada";
         String mainExtension = ".log";
 
-        /*
-        RAFAEL
-        Construir una version que lea linea por linea un archivo de excel xlsx
-        */
-
-        // Entrada de ruta de directorio a evaluar
+        // Directorio principal.
         File file = new File(mainPath);
 
         // Filtro de archivos.
@@ -39,7 +34,7 @@ public class Itam {
         System.out.println(list.length);
         for(String f:list){
 
-            //System.out.println(f);
+            System.out.println(f);
             File fileAux=new File(mainPath+"/"+f);
             FileReader fr=new FileReader(fileAux);   //reads the file
             BufferedReader br=new BufferedReader(fr);  //creates a buffering character input stream
@@ -51,6 +46,7 @@ public class Itam {
                 sb.append(line);      //appends line to string buffer
                 sb.append("\n");     //line feed
             }
+
             fr.close();    //closes the stream and release the resources
             System.out.println("Contents of File: ");
             System.out.println(sb.toString());
