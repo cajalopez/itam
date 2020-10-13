@@ -11,7 +11,7 @@ public class Itam {
     public static void main(String[] argv) throws Exception {
 
         // Variable de entrada
-        // Proyecto
+        // Proyecto de entrada
         
         String mainPath = "/Users/cajalopez/Desktop/Itam/Entrada";
         String mainExtension = ".log";
